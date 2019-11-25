@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="infomap">
+      <UniqueIdentifier>{e7195b14-55de-48cd-a888-b54c7accda7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="io">
+      <UniqueIdentifier>{8d6ae4b0-f088-4cbf-b7df-ab61cbb44cc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{e9e1f6a9-2146-41f3-9504-f2d44f9f39cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Infomap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="infomap\FlowNetwork.cpp">
+      <Filter>infomap</Filter>
+    </ClCompile>
+    <ClCompile Include="infomap\InfomapBase.cpp">
+      <Filter>infomap</Filter>
+    </ClCompile>
+    <ClCompile Include="infomap\InfomapContext.cpp">
+      <Filter>infomap</Filter>
+    </ClCompile>
+    <ClCompile Include="infomap\MemFlowNetwork.cpp">
+      <Filter>infomap</Filter>
+    </ClCompile>
+    <ClCompile Include="infomap\MemNetwork.cpp">
+      <Filter>infomap</Filter>
+    </ClCompile>
+    <ClCompile Include="infomap\MemoryNetworkAdapter.cpp">
+      <Filter>infomap</Filter>
+    </ClCompile>
+    <ClCompile Include="infomap\MultiplexNetwork.cpp">
+      <Filter>infomap</Filter>
+    </ClCompile>
+    <ClCompile Include="infomap\Network.cpp">
+      <Filter>infomap</Filter>
+    </ClCompile>
+    <ClCompile Include="infomap\NetworkAdapter.cpp">
+      <Filter>infomap</Filter>
+    </ClCompile>
+    <ClCompile Include="infomap\Node.cpp">
+      <Filter>infomap</Filter>
+    </ClCompile>
+    <ClCompile Include="infomap\TreeData.cpp">
+      <Filter>infomap</Filter>
+    </ClCompile>
+    <ClCompile Include="io\BipartiteClusterReader.cpp">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="io\ClusterReader.cpp">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="io\HierarchicalNetwork.cpp">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="io\ProgramInterface.cpp">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="io\TreeDataWriter.cpp">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="io\version.cpp">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\FileURI.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\Logger.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="io\getopt.c">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="demoMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Infomap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="infomap\Edge.h">
+      <Filter>infomap</Filter>
+    </ClInclude>
+    <ClInclude Include="infomap\flowData.h">
+      <Filter>infomap</Filter>
+    </ClInclude>
+    <ClInclude Include="infomap\flowData_traits.h">
+      <Filter>infomap</Filter>
+    </ClInclude>
+    <ClInclude Include="infomap\FlowNetwork.h">
+      <Filter>infomap</Filter>
+    </ClInclude>
+    <ClInclude Include="infomap\InfomapBase.h">
+      <Filter>infomap</Filter>
+    </ClInclude>
+    <ClInclude Include="infomap\InfomapContext.h">
+      <Filter>infomap</Filter>
+    </ClInclude>
+    <ClInclude Include="infomap\InfomapGreedy.h">
+      <Filter>infomap</Filter>
+    </ClInclude>
+    <ClInclude Include="infomap\InfomapGreedyCommon.h">
+      <Filter>infomap</Filter>
+    </ClInclude>
+    <ClInclude Include="infomap\InfomapGreedySpecialized.h">
+      <Filter>infomap</Filter>
+    </ClInclude>
+    <ClInclude Include="infomap\InfomapGreedyTypeSpecialized.h">
+      <Filter>infomap</Filter>
+    </ClInclude>
+    <ClInclude Include="infomap\MemFlowNetwork.h">
+      <Filter>infomap</Filter>
+    </ClInclude>
+    <ClInclude Include="infomap\MemNetwork.h">
+      <Filter>infomap</Filter>
+    </ClInclude>
+    <ClInclude Include="infomap\MemoryNetworkAdapter.h">
+      <Filter>infomap</Filter>
+    </ClInclude>
+    <ClInclude Include="infomap\MultiplexNetwork.h">
+      <Filter>infomap</Filter>
+    </ClInclude>
+    <ClInclude Include="infomap\Network.h">
+      <Filter>infomap</Filter>
+    </ClInclude>
+    <ClInclude Include="infomap\NetworkAdapter.h">
+      <Filter>infomap</Filter>
+    </ClInclude>
+    <ClInclude Include="infomap\Node.h">
+      <Filter>infomap</Filter>
+    </ClInclude>
+    <ClInclude Include="infomap\NodeFactory.h">
+      <Filter>infomap</Filter>
+    </ClInclude>
+    <ClInclude Include="infomap\TreeData.h">
+      <Filter>infomap</Filter>
+    </ClInclude>
+    <ClInclude Include="infomap\treeIterators.h">
+      <Filter>infomap</Filter>
+    </ClInclude>
+    <ClInclude Include="io\BipartiteClusterReader.h">
+      <Filter>io</Filter>
+    </ClInclude>
+    <ClInclude Include="io\ClusterReader.h">
+      <Filter>io</Filter>
+    </ClInclude>
+    <ClInclude Include="io\Config.h">
+      <Filter>io</Filter>
+    </ClInclude>
+    <ClInclude Include="io\convert.h">
+      <Filter>io</Filter>
+    </ClInclude>
+    <ClInclude Include="io\HierarchicalNetwork.h">
+      <Filter>io</Filter>
+    </ClInclude>
+    <ClInclude Include="io\ProgramInterface.h">
+      <Filter>io</Filter>
+    </ClInclude>
+    <ClInclude Include="io\SafeFile.h">
+      <Filter>io</Filter>
+    </ClInclude>
+    <ClInclude Include="io\TreeDataWriter.h">
+      <Filter>io</Filter>
+    </ClInclude>
+    <ClInclude Include="io\version.h">
+      <Filter>io</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\Date.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\FileURI.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\gap_iterator.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\infomath.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\Logger.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\MersenneTwister.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\Stopwatch.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\types.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="io\getopt.h">
+      <Filter>io</Filter>
+    </ClInclude>
+    <ClInclude Include="io\tailor.h">
+      <Filter>io</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
